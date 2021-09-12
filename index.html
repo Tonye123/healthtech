@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthtechdc</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="Images/healthdc.png" alt="logo" class="logo">
+        </div>
+        <a href="#" class="toggle-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <nav class="navbar"> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#log-in" style="text-transform: none;" onclick=login()>Log in</a></li>
+                <li><a href="#sign-up" onclick=signup() style="text-transform: none;">Sign up</a></li>
+              
+            </ul>
+
+        </nav>
+</header>
+    <main>
+     <div class="hero-section">
+        <section class="info">
+            <h1>Helping people have the best health experience</h1>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             .</p>
+            <button id="info-btn">Log in</button>
+        </section>
+        <section class="img_section">
+            <img src="Images/cover_img.png" alt="cover_img" class="cover_img">
+        </section>
+    </div>
+    <div class="form-content">
+    
+    <form action="#" id="log-in" class="form-grp">
+        <h2>Log in</h2>
+        <div class="username">
+        
+         <p>Username</p> 
+        <input type="text"  />
+    </div>
+        <div class="password">
+            <p>Password</p>
+        <input type="text"
+        >
+    </div>
+        <button>LOG IN</button>
+           <div class="form-blurb">
+            <p><a href="#">Forgot password?</a></p>
+            <p> No account? <a href="#" class="toggle" onclick=signup()>Sign up</a></p>
+           </div>
+    
+    </form>
+   
+    <form action="" id="sign-up" class="form-grp">
+        <h2>Sign up</h2>
+        <div>
+        
+            <p>Firstname</p> 
+           <input type="text" required  />
+       </div>
+
+       <div>
+        
+        <p>Lastname</p> 
+       <input type="text" required />
+   </div>
+        <div class="username">
+        
+            <p>Username</p> 
+           <input type="text" required />
+       </div>
+       <div>
+        
+        <p>E-mail</p> 
+       <input type="email" required />
+   </div>
+
+           <div class="password">
+               <p>Password</p>
+           <input type="password" required
+           >
+       </div>
+           <button >Sign up</button>
+              <div class="form-blurb">
+               <p> I already have an account <a href="#" class="toggle"  onclick=login()>Log in</a></p>
+              </div>
+
+    </form>
+    </div>
+    
+    
+    
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
