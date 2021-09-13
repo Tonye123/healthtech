@@ -12,6 +12,10 @@
     width: 100%;
  }
 
+ a {
+     text-decoration: none;
+ }
+
 header {
    
     height: auto;
@@ -36,10 +40,6 @@ ul li a {
 }
   
 
-/* .logo { 
-    width: 300px;
-    padding-left: 7rem;
-} */
 
 .toggle-btn{
     position: absolute;
@@ -107,12 +107,6 @@ button:hover {
 }
 
 .form-content {
- /* background-color: white;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- padding-top: 20px; */
  width: 23.7rem;
  height: 700px;
  position: relative;
@@ -140,42 +134,6 @@ input {
 
 }
 
-/* form {
-    display: flex;
-    flex-direction: column;
-    background-color: #F9FAFB;
-    min-height: 30vh;
-    padding: 1.5rem;
-    width: 50vw;
-    position: relative;
-    border: 1px solid #ccc;
-    margin: 0.5rem;
-        
-    
-}
-
-
-form button {
-    margin:20px 0;
-}
-.form-grp{
-    top:180px;
-    position: absolute;
-    width: 280px;
-    transition: .5s;
-}
-input {
-    width: 100%;
-    height: 2.5rem;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    padding-left: 3rem;
-}
-
-
-
- */
 
 .form-blurb p {font-size: 1rem;}
 
